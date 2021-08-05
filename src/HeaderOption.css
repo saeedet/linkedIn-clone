@@ -1,0 +1,57 @@
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  color: gray;
+  width: 80px;
+  padding: 5px;
+}
+.headerOption:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.headerOption__title {
+  font-size: 12px;
+  font-weight: 400;
+}
+.headerOption__icon {
+  object-fit: contain;
+  height: 25px !important;
+  width: 25px !important;
+}
+.active {
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.headerOption__profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.headerOption__arrow {
+  margin-left: -5px;
+}
+
+.header__rightSignout {
+  width: 100px;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  background-color: white;
+  border-radius: 10px 0 10px 10px;
+  border: 1px solid lightgray;
+  position: absolute;
+  top: 33px;
+  right: 0;
+  z-index: 5;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.header__rightSignout > p:hover {
+  text-decoration: underline;
+}
