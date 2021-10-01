@@ -18,7 +18,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="sidebar__top">
         <img
-          src="https://media-exp1.licdn.com/dms/image/C5616AQHUj-LuMolQgg/profile-displaybackgroundimage-shrink_350_1400/0/1629896553517?e=1635379200&v=beta&t=nL-_zfxRA5277jNJc8m0xbpw1Q7g88roOD-tHNoSlGg"
+          src="https://media-exp1.licdn.com/dms/image/C5616AQEKZYDBpUz4-A/profile-displaybackgroundimage-shrink_350_1400/0/1631407667786?e=1638403200&v=beta&t=gwcKN0AxJCzgws1Ti53R53rmS3r78vstMN2L9rdRTbc"
           alt=""
         />
         <Avatar className="sidebar__avatar" src={user?.photoUrl}>
